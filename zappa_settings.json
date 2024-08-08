@@ -1,0 +1,13 @@
+{
+    "dev": {
+        "app_function": "app.app",  
+        "aws_region": "us-west-2",  
+        "profile_name": "default",  
+        "project_name": "flask-microservice",
+        "runtime": "python3.8",
+        "s3_bucket": "your-s3-bucket-name",  
+        "manage_roles": true,
+        "timeout_seconds": 30,
+        "memory_size": 128
+    }
+}
